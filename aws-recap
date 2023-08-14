@@ -1,0 +1,37 @@
+started in 2003 with 3 services
+currrently 200+ services
+
+ec2 (allows to create virtual cloud)
+load balancer (allows to distribute trafic along different instances)
+cloud watch (collect log and matrix form different instances)
+auto scale (if required can craeate new instances)
+elastic beanstalk (deploy the code and let all the autoscalling stuff goes automatically)
+light sail
+lambda (simply deploy the code and then choose an event that decide when the code should run (only pay for no of request and computing power))
+outpost (way to rent aws api on own infrastructure)
+snow (to interacts with extreme environment (datacenters can work without internet))
+
+docker container (operating system for container )
+kubernetes (allows to deploy and manage containerized application at scale) 
+
+s3 (simple storage )
+glacier (lower cost only if youdont use your file too often)
+block storage (if you high speed and intensive data processing)
+
+databese 
+simple db
+dyanamo db (easy to scale(horizontally) fast and cheap)
+mongo db(joins)
+rds (support variety of sql datase and can manage backups patching and scaling)
+
+redshift (data warehouse)
+
+data exchange (purchace data from 3 part)
+
+iam (determing roles and allow who have access to what)
+cognitos (if making we or user app it can help to login with variety of authentication)
+sns (sending notification to the users)
+ses (sending emails to the users)
+cloud formation (when have all this tools we need a orgainsed way to provision them )way to create templates based on infrastructure allowing to enabel 100 of services on single click  
+
+
